@@ -49,17 +49,17 @@
                     </div>
 
                     <div v-if="errorMessage">
-                        <!-- <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
                             <strong>Holy guacamole!</strong> You should check in on some of those fields below.
                             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                        </div> -->
+                        </div>
                     </div>
 
                     <div v-if="successMessage">
-                        <!-- <div class="alert alert-success alert-dismissible fade show" role="alert">
+                        <div class="alert alert-success alert-dismissible fade show" role="alert">
                             <strong>Holy guacamole!</strong> Success!
                             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                        </div> -->
+                        </div>
                     </div>
 
                 </div>
@@ -89,5 +89,9 @@
     </div>
     <script src="vue.js"></script>
 </body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+</script>
 
 </html>
